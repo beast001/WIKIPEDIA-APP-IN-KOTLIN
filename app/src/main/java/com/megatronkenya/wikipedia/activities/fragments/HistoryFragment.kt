@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.megatronkenya.wikipedia.R
+import com.megatronkenya.wikipedia.activities.adapters.ArticleCardAdapter
 import com.megatronkenya.wikipedia.activities.adapters.ArticleListItemAdapter
 import kotlinx.android.synthetic.main.fragment_history.*
 

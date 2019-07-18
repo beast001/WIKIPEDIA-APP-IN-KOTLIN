@@ -5,20 +5,18 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.megatronkenya.wikipedia.R
 import com.megatronkenya.wikipedia.activities.holders.CardHolder
+import com.megatronkenya.wikipedia.activities.holders.ListItemHolder
 
-class ArticleListItemAdapter() : RecyclerView.Adapter<CardHolder>() {
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardHolder {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+class ArticleListItemAdapter() : RecyclerView.Adapter<ListItemHolder>() {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListItemHolder {
    var cardItem = LayoutInflater.from(parent?.context).inflate(R.layout.article_list_item,parent,false)
-        return CardHolder(cardItem)
+        return ListItemHolder(cardItem)
     }
 
     override fun getItemCount(): Int {
         return 15
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+           }
 
-    override fun onBindViewHolder(holder: CardHolder, position: Int) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+    override fun onBindViewHolder(holder: ListItemHolder, position: Int) {
+          }
 }
